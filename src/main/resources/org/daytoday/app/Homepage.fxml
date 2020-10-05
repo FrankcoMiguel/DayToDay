@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox stylesheets="@../css/homepage.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.daytoday.app.Homepage">
+   <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="101.0" styleClass="leftbar-root" stylesheets="@../css/leftbar.css">
+      <children>
+         <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+            <children>
+               <ImageView fitHeight="102.0" fitWidth="136.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@../media/logotype-leftbar.png" />
+                  </image>
+               </ImageView>
+            </children>
+            <padding>
+               <Insets left="15.0" />
+            </padding>
+         </HBox>
+         <HBox alignment="CENTER" layoutX="10.0" layoutY="30.0" prefHeight="100.0" prefWidth="200.0">
+            <children>
+               <ImageView fx:id="dashboard" pickOnBounds="true" preserveRatio="true" styleClass="dashboard">
+                  <cursor>
+                     <Cursor fx:constant="HAND" />
+                  </cursor></ImageView>
+            </children>
+         </HBox>
+         <HBox alignment="CENTER" layoutX="10.0" layoutY="132.0" prefHeight="100.0" prefWidth="200.0">
+            <children>
+               <ImageView fx:id="tasks" pickOnBounds="true" preserveRatio="true" styleClass="tasks">
+                  <cursor>
+                     <Cursor fx:constant="HAND" />
+                  </cursor></ImageView>
+            </children>
+         </HBox>
+         <HBox alignment="CENTER" layoutX="10.0" layoutY="232.0" prefHeight="100.0" prefWidth="200.0">
+            <children>
+               <ImageView fx:id="timesheet" pickOnBounds="true" preserveRatio="true" styleClass="timesheet">
+                  <cursor>
+                     <Cursor fx:constant="HAND" />
+                  </cursor></ImageView>
+            </children>
+         </HBox>
+         <HBox alignment="CENTER" layoutX="10.0" layoutY="332.0" prefHeight="100.0" prefWidth="200.0">
+            <children>
+               <ImageView fx:id="projects" pickOnBounds="true" preserveRatio="true" styleClass="projects">
+                  <cursor>
+                     <Cursor fx:constant="HAND" />
+                  </cursor></ImageView>
+            </children>
+         </HBox>
+         <HBox alignment="CENTER" layoutX="10.0" layoutY="432.0" prefHeight="100.0" prefWidth="200.0">
+            <children>
+               <ImageView fx:id="settings" pickOnBounds="true" preserveRatio="true" styleClass="settings">
+                  <cursor>
+                     <Cursor fx:constant="HAND" />
+                  </cursor></ImageView>
+            </children>
+         </HBox>
+         <HBox alignment="CENTER" layoutX="10.0" layoutY="532.0" prefHeight="100.0" prefWidth="200.0">
+            <children>
+               <ImageView fx:id="exit" pickOnBounds="true" preserveRatio="true" styleClass="exit">
+                  <cursor>
+                     <Cursor fx:constant="HAND" />
+                  </cursor></ImageView>
+            </children>
+         </HBox>
+      </children>
+      <padding>
+         <Insets top="20.0" />
+      </padding>
+   </VBox>
+
+   <VBox fx:id="content" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0">
+      <padding>
+         <Insets bottom="40.0" left="40.0" right="40.0" top="40.0" />
+      </padding>
+   </VBox>
+</HBox>

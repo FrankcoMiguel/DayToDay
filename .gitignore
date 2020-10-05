@@ -1,0 +1,16 @@
+14 lines (14 sloc)  296 Bytes
+IntelliJ IDEAPhpStormWebStorm
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.idea/
+.DS_Store
+storage.db
+# https://github.com/takari/maven-wrapper#usage-without-binary-jar
+.mvn/wrapper/maven-wrapper.jar

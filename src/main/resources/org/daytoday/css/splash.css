@@ -1,0 +1,31 @@
+.root{
+
+    -fx-background-color: #355C7D;
+
+}
+
+.text{
+
+ -fx-fill: #ED8A2F;
+
+}
+
+.progress-bar {
+
+    -fx-background-radius: 10;
+
+}
+
+.progress-bar .bar{
+
+    -fx-background-radius: 10;
+    -fx-background-color: #ED8A2F;
+
+}
+
+.progress-bar .track{
+
+    -fx-background-radius: 10;
+    -fx-background-color: #355C7D;
+
+}

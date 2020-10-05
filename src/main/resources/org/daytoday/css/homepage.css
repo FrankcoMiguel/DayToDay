@@ -1,0 +1,73 @@
+.root{
+    -fx-background-color: #EFEFEF;
+}
+
+.text{
+ -fx-fill: #FFFFFF;
+}
+
+.button{
+    -fx-background-color: #6C5B7B;
+    -fx-background-radius: 60px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 3, 0.0 , 0 , 1);
+}
+
+.line{
+
+    -fx-background-color: #707070;
+
+}
+
+.scroll-pane{
+
+    -fx-background-color: transparent;
+
+}
+
+.scroll-pane-content{
+
+    -fx-background-color: transparent;
+
+}
+
+.scroll-bar:horizontal, .scroll-bar:vertical{
+    -fx-background-color: transparent;
+}
+
+.increment-button, .decrement-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0em;
+}
+
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+    -fx-background-color: #FFBC6C;
+    -fx-background-radius: 5em;
+}
+
+.close-button{
+    -fx-fill: #6c5b7b;
+}
+
+.close-button:hover{
+    -fx-fill: #C06C84;
+}
+
+.settings-button{
+    -fx-image: url('../media/settings-unselected.png');
+}
+
+.settings-button:hover{
+    -fx-image: url('../media/settings-selected.png');
+}
+
+.add{
+    -fx-image: url('../media/ic_add.png');
+}

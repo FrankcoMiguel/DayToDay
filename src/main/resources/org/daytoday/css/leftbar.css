@@ -1,0 +1,126 @@
+.leftbar-root {
+    -fx-background-color: #355C7D;
+}
+
+
+.dashboard {
+    -fx-image: url('../media/ic_dashboard.png');
+}
+
+.dashboard selected {
+    -fx-image: url('../media/ic_dashboard_active.png');
+
+}
+
+.dashboard:hover {
+    -fx-image: url('../media/ic_dashboard_active.png');
+}
+
+
+
+.tasks {
+    -fx-image: url('../media/ic_tasks.png');
+}
+
+.tasks:hover {
+    -fx-image: url('../media/ic_tasks_active.png');
+}
+
+
+
+.projects {
+    -fx-image: url('../media/ic_projects.png');
+}
+
+
+.projects:hover {
+    -fx-image: url('../media/ic_projects_active.png');
+}
+
+
+
+.timesheet {
+    -fx-image: url('../media/ic_timesheet.png');
+}
+
+.timesheet:hover {
+    -fx-image: url('../media/ic_timesheet_active.png');
+}
+
+
+
+.notification {
+    -fx-image: url('../media/ic_notification.png');
+}
+
+.notification .selected {
+    -fx-image: url('../media/ic_notification_active.png');
+}
+
+.notification:hover {
+    -fx-image: url('../media/ic_notification_active.png');
+}
+
+
+.add {
+    -fx-image: url('../media/ic_add.png');
+}
+
+.add selected {
+    -fx-image: url('../media/ic_add_active.png');
+}
+
+.add:hover {
+    -fx-image: url('../media/ic_add_active.png');
+
+}
+
+
+
+
+.export {
+    -fx-image: url('../media/ic_export.png');
+}
+
+.export selected {
+    -fx-image: url('../media/ic_export_active.png');
+}
+
+.export:hover {
+    -fx-image: url('../media/ic_export_active.png');
+}
+
+
+.settings {
+    -fx-image: url('../media/ic_settings.png');
+}
+
+
+.settings selected{
+        -fx-image: url('../media/ic_settings_active.png');
+}
+
+.settings:hover {
+    -fx-image: url('../media/ic_settings_active.png');
+}
+
+
+.exit {
+    -fx-image: url('../media/ic_exit.png');
+}
+
+.exit selected {
+    -fx-image: url('../media/ic_exit_active.png');
+}
+
+.exit:hover {
+    -fx-image: url('../media/ic_exit_active.png');
+}
+
+
+
+
+
+
+
+
